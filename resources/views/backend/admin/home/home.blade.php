@@ -64,7 +64,7 @@
                             <tbody>
                                 @foreach ($cw_img->where('sec', 'home_sec_1') as $postData)
                                     <tr>
-                                        <td>{{ $postData->title }}</td>
+                                        <td>{{ strip_tags($postData->title) }}</td>
                                         <td>{{ $postData->button_name }}</td>
                                         <td>{{ $postData->button_link }}</td>
                                         <td>{!! Str::limit(strip_tags($postData->des ?? 'N/A'), 20, '...') !!}</td>
@@ -152,7 +152,7 @@
                     <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
                             <h6 class="preview-subject">Section 2 (Content)</h6>
-                            <p class="text-muted mb-0">This section will come from the <a href="">Service</a> page.
+                            <p class="text-muted mb-0">This section will come from the <a href="{!! route('Admin.service') !!}">Service</a> page.
                             </p>
                         </div>
                     </div>
@@ -381,7 +381,7 @@
                     <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
                             <h6 class="preview-subject">Section 4 (Content)</h6>
-                            <p class="text-muted mb-0">This section will come from the <a href="">Products</a>
+                            <p class="text-muted mb-0">This section will come from the <a href="{!! route('Admin.product') !!}">Products</a>
                                 page.</p>
                         </div>
                     </div>
@@ -607,7 +607,7 @@
                     <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
                             <h6 class="preview-subject">Section 6 (Content)</h6>
-                            <p class="text-muted mb-0">This section will come from the <a href="">About</a>
+                            <p class="text-muted mb-0">This section will come from the <a href="{!! route('Admin.about') !!}">About</a>
                                 page.</p>
                         </div>
                     </div>
@@ -707,7 +707,7 @@
                     <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
                             <h6 class="preview-subject">Section 7 (Content)</h6>
-                            <p class="text-muted mb-0">This section will come from the <a href="">Services</a>
+                            <p class="text-muted mb-0">This section will come from the <a href="{!! route('Admin.service') !!}">Services</a>
                                 page.</p>
                         </div>
                     </div>
@@ -1101,10 +1101,10 @@
                 <div class="card-body">
                     <ul class="navbar-nav d-inline mb-3">
                         <li class="breadcrumb-item p-2 col-lg-9 mb-3">
-                            @if (count($cw_icon->where('sec', 'home_sec_9_content')) < 1)
+                            {{-- @if (count($cw_icon->where('sec', 'home_sec_9_content')) < 1) --}}
                                 <a class="nav-link btn btn-success create-new-button px-3 hide_sec6 mr-1"
                                     data-bs-toggle="modal" data-bs-target=".cw_icon" id="sec9_content"> + create </a>
-                            @endif
+                            {{-- @endif --}}
                         </li>
                     </ul>
                     <div class="table-responsive">
@@ -1179,7 +1179,7 @@
         </div>
 
         {{-- Content With Icon --}}
-        {{-- Section 8  --}}
+        {{-- Section 10  --}}
         <div class="col-5 mb-3">
             <div class="preview-list">
                 <div class="preview-item border-bottom">

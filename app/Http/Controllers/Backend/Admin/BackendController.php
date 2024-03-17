@@ -610,7 +610,7 @@ class BackendController extends Controller
             $file= $request->file('img');
             $filename= date('YmdHi').$file->getClientOriginalName();
             $filesize=Image::make($file->getRealPath());
-            $filesize->resize(700, 512, function ($constraint) {
+            $filesize->resize( function ($constraint) {
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
@@ -655,7 +655,7 @@ class BackendController extends Controller
             $file= $request->file('img');
             $filename= date('YmdHi').$file->getClientOriginalName();
             $filesize=Image::make($file->getRealPath());
-            $filesize->resize(700, 512, function ($constraint) {
+            $filesize->resize( function ($constraint) {
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });

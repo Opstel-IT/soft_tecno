@@ -757,8 +757,8 @@ nav .nav li {
 /* ======================== hero section ebnd========================= */
 
 
-/*=========================== 
-  Services section start  
+/*===========================
+  Services section start
   ===========================*/
 .services_services {
   padding: 60px 0;
@@ -867,14 +867,14 @@ nav .nav li {
   max-width: 700px;
 }
 
-/*=========================== 
-  Services section End  
+/*===========================
+  Services section End
   ===========================*/
 
 
 
-/*=========================== 
-  Aboyt section Start  
+/*===========================
+  Aboyt section Start
   ===========================*/
 .home-about {
   padding: 80px 0 80px 0;
@@ -925,13 +925,13 @@ nav .nav li {
   align-items: center;
 }
 
-.home-about-content .home-about-left img {
+/* .home-about-content .home-about-left img {
   width: 48%;
 }
 
 .home-about-content .home-about-left .img1 {
   height: 480px;
-}
+} */
 
 .home-about h4 {
   font-weight: 600;
@@ -1008,8 +1008,8 @@ nav .nav li {
   border: 1px solid var(--yellow);
 }
 
-/*=========================== 
-  Aboyt section End  
+/*===========================
+  About section End
   ===========================*/
 .btn-check:focus+.btn,
 .btn:focus {
@@ -1027,8 +1027,8 @@ nav .nav li {
 }
 
 
-/*=========================== 
-  Our Product section Start  
+/*===========================
+  Our Product section Start
   ===========================*/
 
 .our_product {
@@ -1114,8 +1114,8 @@ nav .nav li {
   color: var(--yellow);
 }
 
-/*=========================== 
-  Our Product section End  
+/*===========================
+  Our Product section End
   ===========================*/
 .together_section {
   padding: 60px 0;
@@ -1166,7 +1166,7 @@ nav .nav li {
 
 }
 
-/*=========================== 
+/*===========================
     GALLERY SECTION START
   ===========================*/
 .wrap .gallery {
@@ -1269,12 +1269,12 @@ nav .nav li {
   opacity: 1;
 }
 
-/*=========================== 
+/*===========================
     GALLERY SECTION End
   ===========================*/
 
-/*=========================== 
-  Hone page fron section start  
+/*===========================
+  Hone page front section start
   ===========================*/
 .contact_section {
   padding: 60px 0;
@@ -1340,13 +1340,13 @@ nav .nav li {
   padding: 60px 0;
 }
 
-/*=========================== 
-  Hone page fron section End  
+/*===========================
+  Hone page front section End
   ===========================*/
 
 
 
-/*=========================== 
+/*===========================
     GALLERY SECTION End
   ===========================*/
 .team {
@@ -1455,13 +1455,13 @@ nav .nav li {
   background-color: var(--yellow);
 } */
 
-/*=========================== 
-  Team section End  
+/*===========================
+  Team section End
   ===========================*/
 
 
-/*=========================== 
-  client review section Start  
+/*===========================
+  client review section Start
   ===========================*/
 .client_slider {
   padding: 40px 0;
@@ -1570,11 +1570,11 @@ nav .nav li {
   color: #777777;
 }
 
-/*=========================== 
-  client review section End  
+/*===========================
+  client review section End
   ===========================*/
 
-/*=========================== 
+/*===========================
   Partners section Start
   ===========================*/
 .Partners_section {
@@ -1623,11 +1623,11 @@ nav .nav li {
   margin-top: 10px;
 }
 
-/*=========================== 
+/*===========================
   Partners section End
   ===========================*/
 
-/*=========================== 
+/*===========================
   Pricing section Start
   ===========================*/
 .pricing_section {
@@ -1710,12 +1710,12 @@ nav .nav li {
 }
 
 
-/*=========================== 
+/*===========================
   Pricing section End
   ===========================*/
 
-/*=========================== 
-   faq section star 
+/*===========================
+   faq section star
   ===========================*/
 .faq_section {
   padding: 60px 0;
@@ -1741,8 +1741,8 @@ nav .nav li {
   border: none;
 }
 
-/*=========================== 
-   faq section End 
+/*===========================
+   faq section End
   ===========================*/
 /* ========================
   product from SECTION Start
@@ -1969,7 +1969,7 @@ form .button:hover {
   ========================  */
 
 /* ========================
-  Blog Single page Start 
+  Blog Single page Start
   ========================  */
 .blog_single_section {
   padding: 60px 0;
@@ -2117,11 +2117,11 @@ form .button:hover {
 }
 
 /* ========================
-  Blog Single page End 
+  Blog Single page End
   ========================  */
 
 /* ========================
- container pahe start 
+ container path start
   ========================  */
 .main_contact_section {
   padding: 60px 0;
@@ -2219,11 +2219,11 @@ form .button:hover {
 
 
 /* ========================
- container pahe End 
+ container pahe End
   ========================  */
 
 /* ========================
- Start Job page Start 
+ Start Job page Start
   ========================  */
 
 /* type-project */
@@ -2433,11 +2433,11 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* ========================
- Start Job page End 
+ Start Job page End
   ========================  */
 
 /* ========================
-  describe_project Section Start 
+  describe_project Section Start
   ========================  */
 .describe_project {
   background-color: #EEEEEE;
@@ -2445,7 +2445,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 /* ========================
-  describe_project Section End 
+  describe_project Section End
   ========================  */
 
 .home-partner-card {

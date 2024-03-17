@@ -1,20 +1,18 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Frontend\FrontendController;
 use App\Http\Controllers\Backend\Admin\AdminController;
 use App\Http\Controllers\Backend\Admin\BackendController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
 
+
+// Front-end Route
+
+Route::get('/', [FrontendController::class, 'index'])->name('Index'); // Index Page
+Route::get('about/us', [FrontendController::class, 'about'])->name('About.Us'); // About Page
+Route::get('service/us', [FrontendController::class, 'service'])->name('Service.Us'); // Service Page
+Route::get('contact/us', [FrontendController::class, 'ContactUs'])->name('Contact.Us'); // Contact Page
 
 
 /*****************Admin Routes*********************/
@@ -22,8 +20,6 @@ Route::group(['middleware'=>'admin_guest'],function () {
     // Login Form
     Route::get('/login/admin', [AdminController::class, 'AdminLoginForm'])->name('Admin.LoginForm');
     Route::post('/login-admin', [AdminController::class, 'AdminLogin'])->name('Admin.Login');
-
-
 });
 
 // Page All Route

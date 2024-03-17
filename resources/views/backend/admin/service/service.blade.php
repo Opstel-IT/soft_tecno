@@ -833,10 +833,6 @@
                                     <th>Action</th>
                                 </tr>
                             </thead>
-                            @php
-                                $cat = $category->pluck('id');
-                                // dd([$cat]);
-                            @endphp
                             <tbody>
                                 @foreach ($client as $postData)
                                     <tr>
