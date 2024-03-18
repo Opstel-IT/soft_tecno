@@ -36,9 +36,9 @@
                         <li><a href="{!! route('Index') !!}" class="navbar-link {{ request()->is('/') ? 'active' : '' }}">Home</a></li>
                         <li><a href="{!! route('About.Us') !!}" class="navbar-link {{ request()->is('about/us') ? 'active' : '' }}">About Us</a></li>
                         <li><a href="{!! route('Service.Us') !!}" class="navbar-link {{ request()->is('service/us') ? 'active' : '' }}">Service</a></li>
-                        <li><a href="product.html" class="navbar-link">Product</a></li>
-                        <li><a href="faq.html" class="navbar-link">FAQ</a></li>
-                        <li><a href="blog.html" class="navbar-link">Blog </a></li>
+                        <li><a href="{!! route('Product.Us') !!}" class="navbar-link {{ request()->is('product/us') ? 'active' : '' }}">Product</a></li>
+                        <li><a href="{!! route('FAQ.Us') !!}" class="navbar-link {{ request()->is('faq/us') ? 'active' : '' }}">FAQ</a></li>
+                        <li><a href="{!! route('BLOG.Us') !!}" class="navbar-link {{ request()->is('blog/us') ? 'active' : '' }}">Blog</a></li>
                         <li><a href="blog.html" class="navbar-link">Start Job </a></li>
                     </ul>
                     <!-- <i class="fa-solid fa-xmark"></i> -->

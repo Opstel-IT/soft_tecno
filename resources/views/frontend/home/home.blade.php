@@ -95,7 +95,7 @@
                     </div>
                 @endforeach
             </div>
-            <a href="" class="order">Order Now Our Product</a>
+            <a href="{!! route('Product.Us') !!}" class="order">Order Now Our Product</a>
         </div>
     </div>
 

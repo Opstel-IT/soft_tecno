@@ -460,7 +460,7 @@
                                         <td>{!! $postData->CategoryName->title ?? '' !!}</td>
                                         <td>{!! Str::limit(strip_tags($postData->title), 20, '...') !!}</td>
                                         <td>{!! Str::limit(strip_tags($postData->des), 20, '...') !!}</td>
-                                        <td><img src="{!! asset('assets/img/uploaded/blog/' . $postData->img ?? '') !!}" alt="{!! $postData->alt_img !!}"></td>
+                                        <td><img src="{!! asset('assets/img/uploaded/img/' . $postData->img ?? '') !!}" alt="{!! $postData->alt_img !!}"></td>
                                         <td>{!! Str::limit(strip_tags($postData->meta_title ?? 'Null'), 20, '...') !!}</td>
                                         <td>{!! Str::limit(strip_tags($postData->meta_keyword ?? 'Null'), 20, '...') !!}</td>
                                         <td>{!! Str::limit(strip_tags($postData->meta_description ?? 'Null'), 20, '...') !!}</td>

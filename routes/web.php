@@ -12,6 +12,9 @@ use App\Http\Controllers\Backend\Admin\BackendController;
 Route::get('/', [FrontendController::class, 'index'])->name('Index'); // Index Page
 Route::get('about/us', [FrontendController::class, 'about'])->name('About.Us'); // About Page
 Route::get('service/us', [FrontendController::class, 'service'])->name('Service.Us'); // Service Page
+Route::get('product/us', [FrontendController::class, 'product'])->name('Product.Us'); // Product Page
+Route::get('faq/us', [FrontendController::class, 'faq'])->name('FAQ.Us'); // FAQ Page
+Route::get('blog/us', [FrontendController::class, 'blog'])->name('BLOG.Us'); // BLOG Page
 Route::get('contact/us', [FrontendController::class, 'ContactUs'])->name('Contact.Us'); // Contact Page
 
 
